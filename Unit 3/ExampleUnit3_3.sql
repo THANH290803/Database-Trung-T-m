@@ -1,0 +1,50 @@
+-- CREATE TABLE customer (
+-- 	id INT PRIMARY KEY AUTO_INCREMENT,
+-- 	first_name VARCHAR(100),
+-- 	last_name VARCHAR(100),
+-- 	email VARCHAR(100),
+-- 	country VARCHAR(100)
+-- );
+-- 
+-- insert into customer (id, first_name, last_name, email, country) values (1, 'Emilia', 'Miguel', 'emiguel0@census.gov', 'Indonesia');
+-- insert into customer (id, first_name, last_name, email, country) values (2, 'Karlan', 'Duferie', 'kduferie1@pbs.org', 'Macedonia');
+-- insert into customer (id, first_name, last_name, email, country) values (3, 'Estrellita', 'Bladder', 'ebladder2@360.cn', 'Chile');
+-- insert into customer (id, first_name, last_name, email, country) values (4, 'Marika', 'Leguay', 'mleguay3@webnode.com', 'Canada');
+-- insert into customer (id, first_name, last_name, email, country) values (5, 'Debora', 'Mullin', 'dmullin4@meetup.com', 'Indonesia');
+-- insert into customer (id, first_name, last_name, email, country) values (6, 'Inglebert', 'Schubuser', 'ischubuser5@samsung.com', 'China');
+-- insert into customer (id, first_name, last_name, email, country) values (7, 'Alisa', 'Dansie', 'adansie6@google.ru', 'Madagascar');
+-- insert into customer (id, first_name, last_name, email, country) values (8, 'Minny', 'Keysel', 'mkeysel7@nytimes.com', 'Poland');
+-- insert into customer (id, first_name, last_name, email, country) values (9, 'Karmen', 'Rassell', 'krassell8@dailymail.co.uk', 'Philippines');
+-- insert into customer (id, first_name, last_name, email, country) values (10, 'Georgetta', 'Feirn', 'gfeirn9@statcounter.com', 'Indonesia');
+-- insert into customer (id, first_name, last_name, email, country) values (11, 'Mireille', 'Esbrook', 'mesbrooka@ocn.ne.jp', 'Armenia');
+-- insert into customer (id, first_name, last_name, email, country) values (12, 'Dyan', 'Innocent', 'dinnocentb@discuz.net', 'Canada');
+-- insert into customer (id, first_name, last_name, email, country) values (13, 'Ly', 'Bleas', 'lbleasc@umich.edu', 'Philippines');
+-- insert into customer (id, first_name, last_name, email, country) values (14, 'Kania', 'Negal', 'knegald@instagram.com', 'China');
+-- insert into customer (id, first_name, last_name, email, country) values (15, 'Walton', 'Houlahan', 'whoulahane@cargocollective.com', 'Ukraine');
+-- insert into customer (id, first_name, last_name, email, country) values (16, 'Etan', 'Easthope', 'eeasthopef@si.edu', 'Brazil');
+-- insert into customer (id, first_name, last_name, email, country) values (17, 'Ariella', 'Cocke', 'acockeg@shutterfly.com', 'Kazakhstan');
+-- insert into customer (id, first_name, last_name, email, country) values (18, 'Teresa', 'Eve', 'teveh@bravesites.com', 'China');
+-- insert into customer (id, first_name, last_name, email, country) values (19, 'Ange', 'Gatley', 'agatleyi@imdb.com', 'Indonesia');
+-- insert into customer (id, first_name, last_name, email, country) values (20, 'Corette', 'Thecham', 'cthechamj@spotify.com', 'France');
+-- insert into customer (id, first_name, last_name, email, country) values (21, 'Aldin', 'McLese', 'amclesek@kickstarter.com', 'Canada');
+-- insert into customer (id, first_name, last_name, email, country) values (22, 'Rand', 'Souza', 'rsouzal@ow.ly', 'China');
+-- insert into customer (id, first_name, last_name, email, country) values (23, 'Shannon', 'Fowle', 'sfowlem@dailymotion.com', 'China');
+-- insert into customer (id, first_name, last_name, email, country) values (24, 'Phillie', 'Tesauro', 'ptesauron@engadget.com', 'Philippines');
+-- insert into customer (id, first_name, last_name, email, country) values (25, 'Syd', 'Seven', 'sseveno@netlog.com', 'Kazakhstan');
+-- insert into customer (id, first_name, last_name, email, country) values (26, 'Kelley', 'Bielefeld', 'kbielefeldp@bing.com', 'China');
+-- insert into customer (id, first_name, last_name, email, country) values (27, 'Emery', 'Kienlein', 'ekienleinq@senate.gov', 'Brazil');
+-- insert into customer (id, first_name, last_name, email, country) values (28, 'Drucie', 'Hasluck', 'dhasluckr@free.fr', 'Indonesia');
+-- insert into customer (id, first_name, last_name, email, country) values (29, 'Debra', 'Jouning', 'djounings@apache.org', 'Indonesia');
+-- insert into customer (id, first_name, last_name, email, country) values (30, 'Eldredge', 'Longthorn', 'elongthornt@mtv.com', 'Madagascar');
+-- insert into customer (id, first_name, last_name, email, country) values (31, 'Natal', 'Rosiello', 'nrosiellou@joomla.org', 'Nepal');
+-- insert into customer (id, first_name, last_name, email, country) values (32, 'Brooke', 'Mealham', 'bmealhamv@samsung.com', 'China');
+-- insert into customer (id, first_name, last_name, email, country) values (33, 'Saudra', 'Stormes', 'sstormesw@arstechnica.com', 'Iraq');
+-- insert into customer (id, first_name, last_name, email, country) values (34, 'Roberto', 'Aleksankin', 'raleksankinx@dailymotion.com', 'Poland');
+-- insert into customer (id, first_name, last_name, email, country) values (35, 'Lynnett', 'Rubinsohn', 'lrubinsohny@acquirethisname.com', 'Mexico');
+-- insert into customer (id, first_name, last_name, email, country) values (36, 'Gallagher', 'Graundisson', 'ggraundissonz@aol.com', 'Norway');
+-- insert into customer (id, first_name, last_name, email, country) values (37, 'Pammi', 'Groll', 'pgroll10@discuz.net', 'China');
+-- insert into customer (id, first_name, last_name, email, country) values (38, 'Pauletta', 'Ingyon', 'pingyon11@github.io', 'Portugal');
+-- insert into customer (id, first_name, last_name, email, country) values (39, 'Roma', 'Calderon', 'rcalderon12@devhub.com', 'France');
+-- insert into customer (id, first_name, last_name, email, country) values (40, 'Maribel', 'Spencelayh', 'mspencelayh13@opensource.org', 'Russia');
+
+SELECT country, COUNT(country) FROM customer GROUP BY country;
